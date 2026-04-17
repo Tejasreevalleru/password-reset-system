@@ -1,8 +1,9 @@
-package com.example.reset.service;
+package com.example.reset.repository;
 
 import static org.junit.jupiter.api.Assertions.*;
 import com.example.reset.model.User;
-import com.example.reset.repository.UserRepository;
+import com.example.reset.service.PasswordService;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
